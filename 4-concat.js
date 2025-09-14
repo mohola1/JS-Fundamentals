@@ -1,4 +1,8 @@
 #!/usr/bin/node
-const [,, first, second] = Process.argv;
-console.log(first !== undefined && second !== undefined ?
-`${first} is ${second}` : 'No argument');
+const arg = process.argv[2];
+
+if (arg === undefined) {
+    console.log("No argument");
+}  else {
+    console.log (arg);
+}
