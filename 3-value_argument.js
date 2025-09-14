@@ -4,11 +4,10 @@ const firstArg = process.argv[2];
 
 if (firstArg === undefined) {
     console.log("No argument");
-}  else if (firstArg === HBTN) {
+}  else if (firstArg === 1) {
     console.log("HBTN");
-}  else if (firstArg === HBTN cool) {
-    console.log("HBTN cool");
 }  else {
     console.log ("firstArg");
 }
+
 
